@@ -16,6 +16,12 @@ Las aplicaciones web utilizan una arquitectura cliente–servidor:
 
 Una vez procesada la solicitud, el servidor devuelve la respuesta al navegador, que la muestra al usuario casi al instante
 
+## Arquitectura
+### Arquitectura del lado del cliente
+El script del lado del cliente se encarga de la funcionalidad de la interfaz de usuario, como los botones y los cuadros con menús desplegables. Cuando el usuario final hace clic en el enlace de la aplicación web, el navegador web carga el script del lado del cliente y renderiza los elementos gráficos y el texto para la interacción del usuario.
+### Arquitectura del lado del servidor
+El script del lado del servidor se encarga del procesamiento de datos. El servidor de la aplicación web procesa las solicitudes del cliente y envía una respuesta de vuelta. Las solicitudes suelen ser obtener más datos, editar datos o guardar nuevos datos. 
+
 
 ## Tipos de aplicaciones WEB
 ## Ventajas
