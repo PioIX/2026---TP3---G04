@@ -16,6 +16,7 @@ Las aplicaciones web utilizan una arquitectura cliente–servidor:
 
 Una vez procesada la solicitud, el servidor devuelve la respuesta al navegador, que la muestra al usuario casi al instante
 
+
 ## Arquitectura
 ### Arquitectura del lado del cliente
 El script del lado del cliente se encarga de la funcionalidad de la interfaz de usuario, como los botones y los cuadros con menús desplegables. Cuando el usuario final hace clic en el enlace de la aplicación web, el navegador web carga el script del lado del cliente y renderiza los elementos gráficos y el texto para la interacción del usuario.
@@ -34,4 +35,21 @@ Según su arquitectura, funcionamiento y propósito, las aplicaciones web se cla
 - **De e-commerce:** Diseñadas para facilitar la compra-venta de productos y servicios online. Integran catálogos, carritos de compra y pasarelas de pago (por ejemplo, Amazon). Permiten analizar datos y personalizar la oferta, aunque demandan una gestión rigurosa en aspectos legales y logísticos.
 - **En tiempo real:** Enfocadas en proporcionar actualizaciones instantáneas de datos mediante tecnologías de comunicación bidireccional. Requieren una infraestructura robusta para manejar conexiones continuas. Se utilizan principalmente en chats (por ejemplo, WhatsApp Web) y videojuegos online.
 - **Sociales:** Diseñadas para fomentar la interacción, la creación de perfiles, la mensajería y el networking entre usuarios (por ejemplo, LinkedIn, Facebook o Instagram). Tienen un alto nivel de engagement, aunque exigen una compleja gestión de la privacidad y el control de la sobrecarga de contenido.
-## Ventajas
+
+
+## Seguridad de aplicaciones web
+La seguridad de las aplicaciones se refiere al proceso de identificar y reparar vulnerabilidades en el software de las aplicaciones, desde el desarrollo hasta el despliegue, para evitar el acceso no autorizado, la modificación o el uso indebido.
+
+En esencia, la seguridad de las aplicaciones tiene como objetivo proteger los datos confidenciales y el código de aplicación contra el robo o la manipulación. Esto implica la implementación de medidas de seguridad durante las fases de desarrollo y diseño de la aplicación y el mantenimiento de la protección durante el despliegue y después.
+
+### ¿Cuáles son?
+Estas medidas, que van desde salvaguardas de hardware (como routers) hasta defensas basadas en software, como cortafuegos de aplicaciones, se complementan con procedimientos que incluyen rutinas regulares de pruebas de seguridad. Las medidas defensivas, como los mecanismos de autenticación sólidos y las técnicas de cifrado, protegen contra el acceso no autorizado y los ciberataques.
+
+Los métodos de seguridad son:
+- **Autenticación**: implementada por los desarrolladores para verificar la identidad de los usuarios que acceden a la aplicación. La autenticación garantiza que solo las personas autorizadas puedan ingresar a través de factores como contraseñas, datos biométricos o tokens físicos.
+
+- **Autorización**: luego de la autenticación, a los usuarios se les otorga licencia para acceder a funcionalidades específicas según su identidad validada ( gestión de identidad y acceso). La autorización verifica los privilegios de los usuarios con una lista predefinida de usuarios autorizados, lo que garantiza el control de acceso.
+
+- **Cifrado**: se aplica para salvaguardar los datos sensibles durante su transmisión o almacenamiento dentro de la aplicación. Especialmente crucial en entornos basados en la nube, el cifrado oculta los datos, impidiendo el acceso no autorizado o la interceptación.
+
+- **Registro**: Proporciona un registro con marca de tiempo de las funciones a las que se accede y las identidades de los usuarios y su actividad en las aplicaciones, lo que es útil para el análisis posterior al incidente.
