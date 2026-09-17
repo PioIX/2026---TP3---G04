@@ -53,3 +53,13 @@ Los métodos de seguridad son:
 - **Cifrado**: se aplica para salvaguardar los datos sensibles durante su transmisión o almacenamiento dentro de la aplicación. Especialmente crucial en entornos basados en la nube, el cifrado oculta los datos, impidiendo el acceso no autorizado o la interceptación.
 
 - **Registro**: Proporciona un registro con marca de tiempo de las funciones a las que se accede y las identidades de los usuarios y su actividad en las aplicaciones, lo que es útil para el análisis posterior al incidente.
+
+## Ventajas
+Las aplicaciones web ofrecen múltiples beneficios clave frente al software tradicional:
+
+- **Accesibilidad multiplataforma:** Se ejecutan desde cualquier navegador web en diversos dispositivos (computadoras, tablets o teléfonos) sin importar el sistema operativo.
+- **Sin instalación local:** No requieren espacio de almacenamiento para archivos ejecutables ni procesos de instalación complejos en el equipo del usuario.
+- **Mantenimiento y actualización centralizados:** Las mejoras y correcciones se aplican directamente en el servidor, garantizando que todos los usuarios accedan siempre a la versión más reciente.
+- **Alta escalabilidad:** Permiten ajustar la capacidad del servidor (procesamiento, almacenamiento y memoria) según el crecimiento de la demanda de usuarios.
+- **Optimización de costos:** Reducen el costo de desarrollo al evitar crear código independiente para cada plataforma nativa.
+- **Seguridad y respaldo centralizado:** Facilitan la protección de los datos sensibles y la lógica de negocio al gestionarse dentro de entornos controlados en el servidor.
