@@ -64,3 +64,15 @@ Las aplicaciones web ofrecen múltiples beneficios clave frente al software trad
 - **Alta escalabilidad:** Permiten ajustar la capacidad del servidor (procesamiento, almacenamiento y memoria) según el crecimiento de la demanda de usuarios.
 - **Optimización de costos:** Reducen el costo de desarrollo al evitar crear código independiente para cada plataforma nativa.
 - **Seguridad y respaldo centralizado:** Facilitan la protección de los datos sensibles y la lógica de negocio al gestionarse dentro de entornos controlados en el servidor.
+
+  
+## Diferencias entre una aplicacio WEB y una normal
+
+#### Aplicación normal
+Una aplicación normal (o nativa) es un programa que se descarga e instala directamente en tu computadora o celular. Está hecha especialmente para el sistema de tu equipo (como Windows, Android o iOS), lo que le permite guardar archivos en tu memoria, usar componentes como la cámara o el procesador sin intermediarios y funcionar casi siempre aunque no tengas internet.
+
+#### Aplicación WEB
+Por otro lado, una aplicación web no se instala en tu dispositivo ni te ocupa espacio de almacenamiento. En lugar de eso, la abres a través de tu navegador de internet (como Chrome o Safari) ingresando a una página web. Como se ejecuta en un servidor remoto, casi siempre vas a necesitar una conexión activa a internet para poder usarla.
+
+La gran diferencia es que las aplicaciones normales ofrecen mejor velocidad y potencia para tareas pesadas (como juegos 3D o editar video), pero debes descargarlas y actualizarlas tú mismo. En cambio, las aplicaciones web funcionan en cualquier dispositivo con navegador, no gastan memoria y siempre están actualizadas automáticamente, aunque dependen más de la red para ir fluidas.
+
